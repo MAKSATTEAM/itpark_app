@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082668284689",
+    "project_id": "kazans-100fd",
+    "storage_bucket": "kazans-100fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082668284689:android:86a11d8b33b0282a1beab0",
+        "android_client_info": {
+          "package_name": "ru.eventssytem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082668284689-4kmu0dc5p74586g8tviktcif781kkiqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVyE07aE5t-FABjfYFXO-JFEtRlHM5DZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082668284689-4kmu0dc5p74586g8tviktcif781kkiqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

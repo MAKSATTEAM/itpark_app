@@ -1,0 +1,230 @@
+name: eventssytem
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 8.0.3+803
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_svg: ^2.0.7
+  custom_navigation_bar: ^0.8.2
+  get_it: ^8.0.0
+  flutter_bloc: ^8.1.3
+  custom_sliding_segmented_control: ^1.6.0
+  buttons_tabbar: ^1.3.13
+  url_launcher: ^6.1.9
+  auto_size_text: ^3.0.0
+  sliding_up_panel: ^2.0.0+1
+  circular_profile_avatar: ^2.0.5
+  dotted_border: ^2.1.0
+  multi_select_flutter: ^4.1.3
+  equatable: ^2.0.5
+  shared_preferences: ^2.1.0
+  flutter_secure_storage: ^9.2.2
+  flutter_appauth: ^7.0.1
+  jwt_decoder: ^2.0.1
+  another_flushbar: ^1.10.30
+  email_validator: ^3.0.0
+  badges: ^3.0.0
+  flutter_multi_formatter: ^2.4.0
+  qr_flutter: ^4.1.0
+  file_picker: ^8.1.2
+  dio: ^5.0.0
+  path: ^1.8.3
+  cached_network_image: ^3.2.3
+  webview_flutter: ^4.0.0
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  flutter_masked_text2: ^0.9.1
+  firebase_core: ^3.6.0
+  firebase_messaging: ^15.1.3
+  flutter_local_notifications: ^17.2.3
+  path_provider_foundation: ^2.4.0
+  archive: ^3.6.1
+  latlong2: ^0.9.1
+  flutter_map: ^7.0.2
+  flutter_map_marker_cluster: ^1.0.0
+
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.2.16
+  hive_generator: ^2.0.1
+  build_runner: ^2.3.0
+
+flutter_native_splash:
+  color: "#E5E5E5"
+  image: "assets/images/logo.png"
+  android: true
+  ios: true
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icons/default_avatar.png
+    - assets/icons/search.svg
+    - assets/images/scheme.jpg
+    - assets/images/scheme1.jpg
+    - assets/images/shuttle_schedule_to_expo.png
+    - assets/images/shuttle_schedule_from_expo.png
+    - assets/images/aeroexpress_schedule.png
+    - assets/icons/notification.svg
+    - assets/icons/business.svg
+    - assets/icons/industrial.svg
+    - assets/icons/cultural.svg
+    - assets/icons/invations.svg
+    - assets/icons/speakers.svg
+    - assets/icons/location.png
+    - assets/icons/transport.png
+    - assets/icons/map.png
+    - assets/icons/tag.png
+    - assets/icons/mail.png
+    - assets/icons/eye.png
+    - assets/icons/dollar.png
+    - assets/icons/news.svg
+    - assets/icons/schedule.svg
+    - assets/icons/contacts.svg
+    - assets/icons/right.svg
+    - assets/icons/calendar.svg
+    - assets/icons/home.svg
+    - assets/icons/favouritesplus.svg
+    - assets/icons/favouritesminus.svg
+    - assets/icons/square.svg
+    - assets/icons/user.svg
+    - assets/icons/favourites.svg
+    - assets/icons/filter.svg
+    - assets/icons/location.svg
+    - assets/icons/zoom.svg
+    - assets/icons/mail.svg
+    - assets/icons/phone.svg
+    - assets/icons/printer.svg
+    - assets/icons/briefcase.svg
+    - assets/icons/instagram.svg
+    - assets/icons/tw.svg
+    - assets/icons/X.svg
+    - assets/icons/left.svg
+    - assets/icons/alignleft.svg
+    - assets/icons/notifplus.svg
+    - assets/icons/inputsearch.svg
+    - assets/icons/player.svg
+    - assets/icons/nonotifications.svg
+    - assets/icons/likes.svg
+    - assets/icons/heartminus.svg
+    - assets/icons/heartplus.svg
+    - assets/icons/linetrans.svg
+    - assets/icons/strelkiii.svg
+    - assets/icons/ellipse.svg
+    - assets/icons/settings.svg
+    - assets/icons/chat.svg
+    - assets/icons/langcheck.svg
+    - assets/icons/b2b.svg
+    - assets/icons/golos.svg
+    - assets/icons/editp.svg
+    - assets/icons/link.svg
+    - assets/icons/camera.svg
+    - assets/icons/clock.svg
+    - assets/icons/fileplus.svg
+    - assets/icons/editorm.svg
+    - assets/icons/profilelist.svg
+    - assets/icons/goodvoting.svg
+    - assets/icons/editprofile.svg
+    - assets/icons/noimg.svg
+    - assets/icons/qr.svg
+    - assets/icons/mapwhat.svg
+    - assets/icons/maplocation.svg
+    - assets/icons/globe.svg
+    - assets/icons/mapphone.svg
+    - assets/icons/download.svg
+    - assets/icons/usefulmaterials.svg
+    - assets/icons/maplocationoutlined.svg
+    - assets/icons/exhibition.svg
+    - assets/icons/vniz.svg
+    - assets/icons/trans.svg
+    - assets/icons/ftrue.svg
+    - assets/icons/bbdone.svg
+    - assets/icons/
+    - assets/images/logoen.svg
+    - assets/images/map.png
+    - assets/images/logom.png
+    - assets/images/cat.png
+    - assets/images/greenbg.svg
+    - assets/images/whitebg.svg
+    - assets/images/logo.png
+    - assets/images/phon.jpg
+    - assets/images/phon2.jpg
+    - assets/images/send.png
+    - assets/images/image_mess.png
+    - assets/images/livefon1.png
+    - assets/images/livefon2.png
+    - assets/images/livefon3.png
+    - assets/partners/image1.png
+    - assets/partners/image2.png
+    - assets/partners/image3.png
+    - assets/partners/image4.png
+    - assets/partners/image5.png
+    - assets/partners/image6.png
+    - assets/partners/image7.png
+    - assets/partners/image8.png
+    - assets/partners/image9.png
+    - assets/partners/image10.png
+    - assets/partners/image11.png
+    - assets/partners/image12.png
+    - assets/partners/image13.png
+    - assets/partners/image14.png
+    - assets/partners/image15.png
+    - assets/partners/image16.png
+    - assets/partners/image17.png
+    - assets/partners/image18.png
+    - assets/partners/image19.png
+    - assets/partners/image20.png
+    - assets/partners/image21.png
+    - assets/partners/image22.png
+    - assets/partners/image23.png
+    - assets/partners/image24.png
+    - assets/partners/image25.png
+    - assets/partners/image26.png
+    - assets/partners/image27.png
+    - assets/partners/image28.png
+    - assets/partners/image29.png
+    - assets/partners/image30.png
+    - assets/partners/image31.png
+    - assets/partners/image32.png
+    - assets/partners/image33.png
+    - assets/partners/image34.png
+    - assets/partners/image35.png
+    - assets/partners/image36.png
+    - assets/partners/image37.png
+    - assets/partners/image38.png
+    - assets/partners/image39.png
+    - assets/partners/image40.png
+    - assets/partners/image41.png
+    - assets/partners/image42.png
+    - assets/partners/image43.png
+    - assets/partners/image44.png
+    - assets/partners/image45.png
+    - assets/partners/image46.png
+    - assets/partners/image47.png
+    - assets/images/bak.png
+    - assets/images/phon2.png
+    - assets/icons/locked.svg
+
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: lib/utils/fonts/Ubuntu-Bold.ttf
+        - asset: lib/utils/fonts/Ubuntu-Light.ttf
+        - asset: lib/utils/fonts/Ubuntu-Regular.ttf
